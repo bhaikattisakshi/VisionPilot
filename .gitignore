@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.DS_Store
+
+# Generated test images
+test_input.png
+test_count.png
+test_edges.png
+test_mask.png
