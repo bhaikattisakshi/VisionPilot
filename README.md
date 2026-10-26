@@ -1,45 +1,33 @@
-# 🔬 VisionPilot
+# 🚀 VisionPilot — AI-Powered Image Analysis
 
-**AI-Powered Image Analysis | Python · OpenCV · Streamlit**
+VisionPilot is a Python-based computer vision prototype designed to analyze images using OpenCV and AI-assisted decision-making.
 
-VisionPilot is a computer vision project that allows users to upload images and run image-processing operations through a simple web interface.
+## ✨ Features
+- Image upload and analysis
+- Object counting
+- Image segmentation
+- Edge detection
+- Brightness measurement
+- Modular decision-making system
 
-## Features
-
-- Image statistics and brightness analysis
-- Contour-based object counting
-- Threshold-based image segmentation
-- Canny edge detection
-- Rule-based natural-language request routing
-
-## Tech Stack
-
+## 🛠️ Tech Stack
 - Python
 - OpenCV
-- NumPy
-- Pillow
 - Streamlit
+- AI-assisted tool routing
 
-## Run Locally
+## 📁 Project Structure
+- `app.py` — Streamlit application
+- `vision_tools.py` — Image processing functions
+- `decision.py` — Decision-making and tool routing
+- `test_vision.py` — Vision functionality tests
+- `test_decision.py` — Decision routing tests
 
-1. Clone this repository.
-2. Create and activate a Python virtual environment.
-3. Install the dependencies.
-4. Launch the application.
+## 🎯 Goal
+To build an intelligent image-analysis assistant that can understand image-processing requests and select appropriate computer vision tools.
 
-```bash
-pip install streamlit opencv-python pillow numpy
-streamlit run app.py
-```
+## 🚧 Project Status
+Prototype — under active development.
 
-## Project Status
-
-**In progress.** The current version uses rule-based request routing. Integration with a real decision model, including Strands Decider 2B, is planned.
-
-## Disclaimer
-
-Object counts and segmentation results are estimates based on traditional image-processing techniques. Results depend on image quality and object separation.
-
-## Author
-
+## 👩‍💻 Author
 Sakshi Bhaikatti
